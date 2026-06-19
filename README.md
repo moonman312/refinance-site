@@ -1,6 +1,6 @@
 # Refinance Hotel Debt
 
-Audience-specific landing site for **refinancehoteldebt.com**, bundling the Hotel Capital Stack diagnostic. Static — no build step.
+Audience-specific landing site for **hotelloanrefinance.com**, bundling the Hotel Capital Stack diagnostic. Static — no build step.
 
 ## Files
 - index.html — the landing page
@@ -22,10 +22,10 @@ vercel && vercel --prod
 ```
 
 ## Domains for this project (add in Vercel → Settings → Domains)
-- Primary: **refinancehoteldebt.com**
-- refinancehotel.com → set to **Redirect to** refinancehoteldebt.com
-- refinancingahotel.com → set to **Redirect to** refinancehoteldebt.com
-- hotelloanrefinance.com → set to **Redirect to** refinancehoteldebt.com
-- refinancehotelloan.com → set to **Redirect to** refinancehoteldebt.com
+- Primary: **hotelloanrefinance.com**
+- refinancehotel.com → set to **Redirect to** hotelloanrefinance.com
+- refinancingahotel.com → set to **Redirect to** hotelloanrefinance.com
+- hotelloanrefinance.com → set to **Redirect to** hotelloanrefinance.com
+- refinancehotelloan.com → set to **Redirect to** hotelloanrefinance.com
 
 Point each domain's nameservers (GoDaddy) to Vercel, or add an apex A record `@ -> 76.76.21.21`.
