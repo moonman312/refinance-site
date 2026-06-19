@@ -2,6 +2,52 @@
   "$schema": "https://openapi.vercel.sh/vercel.json",
   "cleanUrls": true,
   "trailingSlash": false,
+  "redirects": [
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "refinancehotel.com"
+        }
+      ],
+      "destination": "https://refinancehoteldebt.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "refinancingahotel.com"
+        }
+      ],
+      "destination": "https://refinancehoteldebt.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "hotelloanrefinance.com"
+        }
+      ],
+      "destination": "https://refinancehoteldebt.com/$1",
+      "permanent": true
+    },
+    {
+      "source": "/(.*)",
+      "has": [
+        {
+          "type": "host",
+          "value": "refinancehotelloan.com"
+        }
+      ],
+      "destination": "https://refinancehoteldebt.com/$1",
+      "permanent": true
+    }
+  ],
   "headers": [
     {
       "source": "/(.*)",
