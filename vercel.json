@@ -11,7 +11,7 @@
           "value": "refinancehoteldebt.com"
         }
       ],
-      "destination": "https://hotelloanrefinance.com/$1",
+      "destination": "https://hotelloanrefinance.com/$1?ref=refinancehoteldebt.com",
       "permanent": true
     },
     {
@@ -22,7 +22,7 @@
           "value": "refinancehotel.com"
         }
       ],
-      "destination": "https://hotelloanrefinance.com/$1",
+      "destination": "https://hotelloanrefinance.com/$1?ref=refinancehotel.com",
       "permanent": true
     },
     {
@@ -33,7 +33,7 @@
           "value": "refinancingahotel.com"
         }
       ],
-      "destination": "https://hotelloanrefinance.com/$1",
+      "destination": "https://hotelloanrefinance.com/$1?ref=refinancingahotel.com",
       "permanent": true
     },
     {
@@ -44,7 +44,7 @@
           "value": "refinancehotelloan.com"
         }
       ],
-      "destination": "https://hotelloanrefinance.com/$1",
+      "destination": "https://hotelloanrefinance.com/$1?ref=refinancehotelloan.com",
       "permanent": true
     }
   ],
